@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var counter=1
     var timer=Timer()
     var isanimate=false
+    var a = 1
     
     @IBAction func fadein(_ sender: Any) {
         image.alpha=0
